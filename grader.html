@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade my results</title>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" type="text/css" href="css/style-2.css">
+
+</head>
+<body>
+    <div id="content">
+      <div>
+        <h1 id="banner">Grade my results</h1>
+      </div>
+      <div class="row">
+        <div class="image"><img src="images/app.png">
+        </div>
+        <div class="description">
+            <p>Please input your numeric results (0-100).</p>
+
+            <p>English: <input type="text" name="value-english" id="value-english"><br>
+            <p>Irish: <input type="text" name="value-irish" id="value-irish"><br>
+            <p>Maths: <input type="text" name="value-maths" id="value-maths"><br>
+
+			<br><button class="button" onclick="gradeResult()">Grade me!</button>
+
+            </p>
+            
+			<p id="englishresultsentence"></p>
+            <p id="irishresultsentence"></p>
+			<p id="mathsresultsentence"></p>
+        </div>
+      </div>
+    </div>
+	<script src="js/grader.js"></script>
+</body>
+</html>
